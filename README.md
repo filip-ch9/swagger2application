@@ -11,7 +11,7 @@ Most simple basic spring boot application, swagger confoguration (basic), connec
 
 run the application 
 
-go to http://localhost:9000/swagger-ui.html#/ # try out the methods 
+go to (http://localhost:9000/swagger-ui.html) # try out the methods 
 
 to import the project to postman copy the same url and go to postman/import/link and you should be able to use all the methods available # play around with different inputs and tests
 
