@@ -12,7 +12,7 @@ Most simple basic spring boot application, swagger confoguration (basic), connec
 
 run the application 
 
-go to your localhost port and ad this - swagger-ui.html # you should be able to see the swagger ui 
+go to your localhost port and add this - swagger-ui.html # you should be able to see the swagger ui 
 write crud operations # try out the methods 
 
 to import the project into postman copy the same url
