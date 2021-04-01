@@ -3,7 +3,7 @@ Most simple basic spring boot application, openAPI 3 confoguration (basic), conn
 
 ## Installation 
 
-[Download](https://github.com/filip-ch9/spring-boot-openAPI3-application.git) the code, import the project as existing maven project. 
+[Download](https://github.com/filip-ch9/spring-boot-openAPI3-application.git) the code, import the project in your IDE as existing maven project. 
 To run the application read the usage part.
 
 ```demo-application```
