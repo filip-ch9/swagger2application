@@ -3,7 +3,6 @@ package com.swagger.practice.demo.application.configuration;
 import org.springdoc.core.GroupedOpenApi;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
 import io.swagger.v3.oas.models.ExternalDocumentation;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
@@ -11,20 +10,20 @@ import io.swagger.v3.oas.models.info.License;
 
 @Configuration
 public class ApiConfiguration {
-
-	 @Bean
+	
+	@Bean
 	  public GroupedOpenApi contactApi() {
 	      return GroupedOpenApi.builder()
-	              .group("demo-contacts")
-	              .pathsToMatch("/api-contacts/**")
+	              .group("api-contacts")
+	              .pathsToMatch("/contacts/**")
 	              .build();
 	  }
 	 
 	 @Bean
 	  public GroupedOpenApi tutorialsApi() {
 	      return GroupedOpenApi.builder()
-	              .group("demo-tutorials")
-	              .pathsToMatch("/api-tutorials/**")
+	              .group("api-tutorials")
+	              .pathsToMatch("/tutorials/**")
 	              .build();
 	  }
 
@@ -37,5 +36,7 @@ public class ApiConfiguration {
 	              .license(new License().name("Apache 2.0").url("http://springdoc.org")))
 	              .externalDocs(new ExternalDocumentation());
 	  }
+	 
+	
 
 }

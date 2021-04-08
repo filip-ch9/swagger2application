@@ -18,7 +18,7 @@ import com.swagger.practice.demo.application.model.Contact;
 import com.swagger.practice.demo.application.repositories.ContactRepository;
 
 @RestController
-@RequestMapping(value = "/api-contacts")
+@RequestMapping(value = "/contacts")
 public class AddressBookResourceRestController {
 
 	@Autowired

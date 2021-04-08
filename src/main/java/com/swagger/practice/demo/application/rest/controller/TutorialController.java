@@ -25,7 +25,7 @@ import com.swagger.practice.demo.application.repositories.TutorialRepository;
 
 @CrossOrigin(origins = "http://localhost:9000")
 @RestController
-@RequestMapping("/api-tutorials")
+@RequestMapping("/tutorials")
 public class TutorialController {
 
 	@Autowired
