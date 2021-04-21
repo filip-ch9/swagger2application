@@ -19,7 +19,7 @@ import com.swagger.practice.demo.application.repositories.ContactRepository;
 
 import io.swagger.v3.oas.annotations.tags.Tag;
 
-@Tag(name = "Address Book", description = "Address Book Controller")
+@Tag(name = "address-book-controller", description = "Address Book Controller")
 @RestController
 @RequestMapping(value = "/contacts")
 public class AddressBookController {

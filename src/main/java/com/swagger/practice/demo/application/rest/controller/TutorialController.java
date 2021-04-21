@@ -24,7 +24,7 @@ import com.swagger.practice.demo.application.repositories.TutorialRepository;
 
 import io.swagger.v3.oas.annotations.tags.Tag;
 
-@Tag(name = "Tutorial", description = "Tutorial Controller")
+@Tag(name = "tutorial-controller", description = "Tutorial Controller")
 @RestController
 @RequestMapping("/tutorials")
 public class TutorialController {
